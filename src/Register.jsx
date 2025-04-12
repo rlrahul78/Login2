@@ -67,6 +67,9 @@ const Register2 = () => {
         </form>
       )}
       </div>
+      <div>
+        <h1>This is login page</h1>
+      </div>
     </div>
   );
 };
