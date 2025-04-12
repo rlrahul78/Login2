@@ -29,32 +29,26 @@ function App() {
   //     </div>
   //   </>
   // );
-  // return (
-  //   <>
-  //     <div className="flex flex-col sm:flex-row w-full h-screen bg-violet-400">
-  //       {/* Left side - Image */}
-  //       <div className="w-full sm:w-1/2 h-1/2 sm:h-full">
-  //         <img
-  //           src={myImage}
-  //           alt="Example"
-  //           className="w-full h-full"
-  //         />
-  //       </div>
-  
-  //       {/* Right side - Form */}
-  //       <div className="w-full sm:w-1/2 flex items-center justify-center p-4">
-  //         <Register2 />
-  //       </div>
-  //     </div>
-  //   </>
-  // );
   return (
-    <div>
-      <Register />
-      <button onClick={handleclick}>Go to Image </button>
-      <button onClick={handleclick2}>Go to contact Page </button>
-    </div>
+    <>
+      <div className="flex flex-col sm:flex-row w-full h-screen bg-violet-400">
+        {/* Left side - Image */}
+        <div className="w-full sm:w-1/2 h-1/2 sm:h-full">
+          <img
+            src={myImage}
+            alt="Example"
+            className="w-full h-full"
+          />
+        </div>
+  
+        {/* Right side - Form */}
+        <div className="w-full sm:w-1/2 flex items-center justify-center p-4">
+          <Register2 />
+        </div>
+      </div>
+    </>
   );
+ 
 }
 
 export default App;
